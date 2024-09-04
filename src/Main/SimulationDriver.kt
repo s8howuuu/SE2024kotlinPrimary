@@ -1,7 +1,5 @@
 package Main
 
-import jdk.internal.foreign.abi.Binding
-
 class SimulationDriver {
 
 
@@ -11,7 +9,7 @@ class SimulationDriver {
     private val collectManager = CollectManager(board)
     private val copManager = CopManager(board)
     private val eventManager = EventManager(board)
-    private val harborService = HabourService(board)
+    private val harborService = HarbourService(board)
     fun setTicks(ticks: Int) {
         this.amountTicks = ticks
     }

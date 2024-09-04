@@ -1,6 +1,6 @@
 package Main
 
-class HabourService(board:SimulationBoard) {
+class HarbourService(board:SimulationBoard) {
     fun serve(corp:Corporation){
         TODO()
     }
